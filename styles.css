@@ -1,0 +1,34 @@
+#header {
+    background-color: rgb(80, 167, 221);
+}
+.card {
+    width: 50%;
+    margin-left: 25%;
+}
+.card-header {
+    background-color: rgb(177, 221, 248);
+}
+
+#root {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-footer {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content {
+    word-wrap: break-word;
+}
+
+.newtweet {
+    width: 15%;
+    margin-left: 42%;
+}
+
+.replylayout, .editlayout, .tweetdraft, .retweetlayout {
+    width: 50%;
+    margin-left: 25%; 
+}

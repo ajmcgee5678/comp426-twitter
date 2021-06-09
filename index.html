@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>COMP 426 Twitter</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <section class="hero is-dark is-one-quarter" id="header">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        COMP 426 Twitter Feed
+                    </h1>
+                    <h2 class="subtitle">
+                        Austin McGee
+                    </h2>
+                </div>
+                <br>
+                <button class="newtweet button"> Compose Tweet </button>
+            </div>
+        </section>
+        <div id="compose"></div>
+        <div id="root"></div>
+
+
+
+
+        <!-- Include links to JavaScript files below -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="node_modules/axios/dist/axios.js"></script>
+        <script type="module" src="twitter.js"></script>
+    </body>
+</html>
